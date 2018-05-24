@@ -69,7 +69,7 @@ namespace DetectionAPI.Database.Entities
                     Session = sessions[0],
                     UploadDate = DateTime.Now,
                     SessionId = sessions[0].Id,
-                    //UserId = users[0].UserId
+                    UserId = 1
                 },
 
                 new ImageInfo
@@ -80,7 +80,7 @@ namespace DetectionAPI.Database.Entities
                     Session = sessions[0],
                     UploadDate = DateTime.Now,
                     SessionId = sessions[0].Id,
-                    //UserId = users[0].UserId
+                    UserId = 1
                 },
             };
 

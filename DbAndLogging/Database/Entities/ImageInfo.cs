@@ -34,8 +34,8 @@ namespace DetectionAPI.Database.Entities
                 Property(e => e.PlatesCount)
                     .IsRequired();
 
-                //Property(e => e.UserId)
-                //    .IsRequired();
+                Property(e => e.UserId)
+                    .IsRequired();
 
                 Property(e => e.SessionId)
                     .IsRequired();
@@ -78,7 +78,7 @@ namespace DetectionAPI.Database.Entities
 
         #endregion
 
-        //public override string ToString() => $@"ImageId: {ImageId}, ImagePath:{ImagePath}, MarkupPath: {MarkupPath}, PlatesCount: {PlatesCount}, UserId: {UserId}, SessionId: {SessionId}, UploadDate: {UploadDate}";
-        public override string ToString() => $@"ImageId: {ImageId}, ImagePath:{ImagePath}, MarkupPath: {MarkupPath}, PlatesCount: {PlatesCount}, SessionId: {SessionId}, UploadDate: {UploadDate}";
+        public override string ToString() => $@"ImageId: {ImageId}, ImagePath:{ImagePath}, MarkupPath: {MarkupPath}, PlatesCount: {PlatesCount}, UserId: {UserId}, SessionId: {SessionId}, UploadDate: {UploadDate}";
+        //public override string ToString() => $@"ImageId: {ImageId}, ImagePath:{ImagePath}, MarkupPath: {MarkupPath}, PlatesCount: {PlatesCount}, SessionId: {SessionId}, UploadDate: {UploadDate}";
     }
 }
